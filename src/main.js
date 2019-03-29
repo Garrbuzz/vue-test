@@ -4,7 +4,8 @@ import VueRouter from 'vue-router'
 import Comp1 from './components/component1.vue'
 import Comp2 from './components/component2.vue'
 import Comp3 from './components/component3.vue'
-
+import Menu from './components/menu.vue'
+Vue.component('Menu', Menu);
 const routes = [
   { path: '/component1', component: Comp1 },
   { path: '/component2', component: Comp2 },

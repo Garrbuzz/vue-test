@@ -1,13 +1,13 @@
 <template>
   <div id="app">
-    <router-link id = "c1" to="/component1">component1</router-link>
-    <router-link to="/component2">component2</router-link>
-    <router-link to="/component3">component3</router-link>
-    <router-view></router-view>
+  
+    <Menu></Menu>    
   </div>
 </template>
 
 <script>
+
+
 export default {
   name: 'app',
   data () {
@@ -15,6 +15,7 @@ export default {
      
     }
   }
+    
 }
 </script>
 
@@ -31,5 +32,13 @@ export default {
 a:active{
   color: green;
 }
-
+.router-link-exact-active{
+    text-decoration: none;
+}
+.disp-none{
+  display:none;
+}
+.back:hover{
+  cursor:pointer;
+};
 </style>
