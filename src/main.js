@@ -7,6 +7,7 @@ import Comp3 from './components/component3.vue'
 import Menu from './components/menu.vue'
 Vue.component('Menu', Menu);
 const routes = [
+  { path: '/', component: Menu },
   { path: '/component1', component: Comp1 },
   { path: '/component2', component: Comp2 },
   { path: '/component3', component: Comp3 }

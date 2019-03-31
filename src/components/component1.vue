@@ -8,15 +8,10 @@
 export default {
 	methods:{
 		backToMain(){
-			let el = document.querySelectorAll('.b1');
-      		for (let i=0; i<el.length; i++){
-      			el[i].classList.remove('disp-none');
-      		}
+			
       		this.$router.push('/')
 		}
 	}
-	
-   
 }	
 </script>
 <style >

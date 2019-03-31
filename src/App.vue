@@ -1,7 +1,7 @@
 <template>
   <div id="app">
   
-    <Menu></Menu>    
+    <router-view></router-view>  
   </div>
 </template>
 
@@ -39,6 +39,6 @@ a:active{
   display:none;
 }
 .back:hover{
-  cursor:pointer;
+  cursor:pointer  ;
 };
 </style>
